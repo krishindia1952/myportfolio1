@@ -353,7 +353,7 @@ const App = () => {
             <div className="relative group">
               <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-cyan-500 shadow-2xl shadow-blue-400/30 transform transition-all duration-500 group-hover:scale-105">
                 <img 
-                  src="/lw for.jpeg" 
+                  src="/lw new for photo.jpeg" 
                   alt="Krrish Sharma"
                   className="w-full h-full object-cover transition-all duration-700 group-hover:opacity-90"
                 />
