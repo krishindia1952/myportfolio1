@@ -573,11 +573,11 @@ const App = () => {
               <div className="space-y-4">
                 <div className="flex items-center gap-4 hover:text-blue-400 transition-colors">
                   <Mail className="text-blue-400" size={20} />
-                  <span className="text-slate-300">krrish.sharma@example.com</span>
+                  <span className="text-slate-300">krrishsharmaindia@gmail.com</span>
                 </div>
                 <div className="flex items-center gap-4 hover:text-blue-400 transition-colors">
                   <Phone className="text-blue-400" size={20} />
-                  <span className="text-slate-300">+91 XXXXX XXXXX</span>
+                  <span className="text-slate-300">+91 8619128144</span>
                 </div>
               </div>
               
