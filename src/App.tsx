@@ -342,7 +342,12 @@ const App = () => {
                 View Projects
               </button>
               <button className="px-8 py-3 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-slate-900 transition-all transform hover:scale-105 font-semibold flex items-center gap-2 hover:shadow-lg hover:shadow-blue-400/30">
-                <Download size={20} />
+               <a href="/resume-6th-sem.docx" download>
+  <button className="px-8 py-3 border border-blue-400 rounded-lg hover:bg-blue-400 hover:text-slate-900 transition-all transform hover:scale-105 font-semibold flex items-center gap-2 hover:shadow-lg hover:shadow-blue-400/30">
+    <Download size={20} />
+    Download Resume
+  </button>
+</a>
                 Download Resume
               </button>
             </div>
@@ -351,11 +356,11 @@ const App = () => {
           <div className="flex flex-col items-center space-y-6">
             {/* Profile Image with Enhanced Animations */}
             <div className="relative group">
-              <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-cyan-500 shadow-2xl shadow-blue-400/30 transform transition-all duration-500 group-hover:scale-105">
+              <div className="w-64 h-64.1 rounded-full overflow-hidden border-4 border-gradient-to-r from-blue-400 to-cyan-500 shadow-2xl shadow-blue-400/30 transform transition-all duration-500 group-hover:scale-105">
                 <img 
                   src="/lw new for photo.jpeg" 
                   alt="Krrish Sharma"
-                  className="w-full h-full object-cover transition-all duration-700 group-hover:opacity-90"
+                  className="w-66 h-50 object-cover transition-all duration-700 group-hover:opacity-90"
                 />
                 {/* Translucent overlay animation */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-400/20 to-cyan-500/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -366,17 +371,14 @@ const App = () => {
               <div className="absolute inset-0 rounded-full border-2 border-blue-400/50 animate-ping" />
             </div>
             
-            <div className="w-full max-w-md">
-              <div className="bg-slate-800/90 backdrop-blur-md rounded-lg p-4 border border-slate-700 hover:border-blue-400 transition-all hover:shadow-lg hover:shadow-blue-400/20">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm text-slate-400">Resume Video</span>
-                  <ExternalLink size={16} className="text-blue-400" />
-                </div>
-                <div className="bg-slate-700 rounded-lg h-32 flex items-center justify-center hover:bg-slate-600 transition-colors">
-                  <span className="text-slate-400">Video Placeholder</span>
-                </div>
-              </div>
-            </div>
+<div className="bg-slate-700 rounded-lg h-70 flex items-center justify-center hover:bg-slate-600 transition-colors">
+<video
+  src="/public\lw-video-portfolio.mp4"
+  className="rounded-lg max-h-80 w-full object-cover"
+  controls//see there
+/>
+
+</div>
           </div>
         </div>
       </section>
